@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "-------------------------------"
 # Script multiple login ssh user dropbear, webmin, squid3, openvpn, openssh
-# Dev by Royyeem
+# Dev by Tao
 
 read -p "Username : " Login
 read -p "Password : " Passwd
@@ -33,7 +33,7 @@ echo -e "http://$IP:81/$Login.ovpn"
 echo -e "******************************"
 echo -e "Out of date : $exp"
 echo -e "============================="
-echo -e "Line http://line.me/ti/p/tN_u9iU2D9"
+echo -e "Thank U"
 echo -e "\033[1;32m" 
 echo "client
 dev tun

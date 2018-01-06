@@ -4,9 +4,9 @@
 
 IP=`dig +short myip.opendns.com @resolver1.opendns.com`
 
-Login=smile`</dev/urandom tr -dc X-Z0-9 | head -c4`
+Login=1`</dev/urandom tr -dc X-Z0-9 | head -c3`
 Day="1"
-Passwd=4468`</dev/urandom | head -c9`
+Passwd=1`</dev/urandom | head -c4`
 
 useradd -e `date -d "$Day days" +"%Y-%m-%d"` -s /bin/false -M $Login
 echo -e "$Passwd\n$Passwd\n"|passwd $Login &> /dev/null

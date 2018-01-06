@@ -7,5 +7,5 @@ echo -e "\033[1;31m"
 	myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`
 	ifconfig $myint | grep "RX bytes" | sed -e 's/ *RX [a-z:0-9]*/Download : /g' | sed -e 's/TX [a-z:0-9]*/\nUpload   : /g'
 	echo -e "\033[0m" 
-	echo -e "\033[1;35mBy Thaworn Kamngamnoi" 
+	echo -e "\033[1;35mDev By. Tao" 
 	echo -e "\033[1;32m"
